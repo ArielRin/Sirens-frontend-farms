@@ -2,33 +2,38 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
+    label: 'Mermaids Home',
     icon: 'HomeIcon',
     href: '/',
   },
+  // {
+  //   label: 'Trade',
+  //   icon: 'TradeIcon',
+  //   items: [
+  //     {
+  //       label: 'Exchange',
+  //       href: 'https://exchange.goosedefi.com/',
+  //     },
+  //     {
+  //       label: 'Liquidity',
+  //       href: 'https://exchange.goosedefi.com/#/pool',
+  //     },
+  //   ],
+  // },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
-      },
-    ],
-  },
-  {
-    label: 'Farms',
+    label: 'Pearl Farming',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'The Grotto',
     icon: 'PoolIcon',
     href: '/nests',
+  },
+  {
+    label: 'Sunken Treasure (Locks)',
+    icon: 'PoolIcon',
+    href: '/',
   },
   // {
   //   label: 'Pools',
@@ -49,10 +54,10 @@ const config: MenuEntry[] = [
     label: 'Info',
     icon: 'InfoIcon',
     items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-      },
+      // {
+      //   label: 'PancakeSwap',
+      //   href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+      // },
       {
         label: 'CoinGecko',
         href: 'https://www.coingecko.com/en/coins/goose-finance',
@@ -67,38 +72,49 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  // {
+  //   label: 'More',
+  //   icon: 'MoreIcon',
+  //   items: [
+  //     {
+  //       label: 'Github',
+  //       href: 'https://github.com/ArielRin?tab=repositories',
+  //     },
+  //     {
+  //       label: 'Twitter',
+  //       href: 'https://twitter.com/SirenTrove_DEX',
+  //     },
+  //     // {
+  //     //   label: 'Blog',
+  //     //   href: 'https://goosefinance.medium.com/',
+  //     // },
+  //   ],
+  // },
+  // {
+  //   label: 'Partnerships/IFO',
+  //   icon: 'GooseIcon',
+  //   href:
+  //     'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  // },
   {
-    label: 'More',
+    label: 'Auditing after Launch',
+    icon: 'AuditIcon',
+    href: '/',
+  },
+  {
+    label: 'Github',
     icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Github',
-        href: 'https://github.com/goosedefi/',
-      },
-      {
-        label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
-      },
-      {
-        label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
-      },
-    ],
+    href: 'https://github.com/ArielRin?tab=repositories',
   },
   {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+    label: 'Twitter',
+    icon: 'MoreIcon',
+    href: 'https://twitter.com/SirenTrove_DEX',
   },
   {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    label: '#girlsmakingcrypto',
+    icon: 'MoreIcon',
+    href: 'http://gmail.com',
   },
 ]
 
