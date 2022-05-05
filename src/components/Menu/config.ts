@@ -32,7 +32,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Sunken Treasure (Locks)',
-    icon: 'PoolIcon',
+    icon: 'VaultsIcon',
     href: '/',
   },
   // {
@@ -103,18 +103,18 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Github',
-    icon: 'MoreIcon',
+    icon: 'RedditIcon',
     href: 'https://github.com/ArielRin?tab=repositories',
   },
   {
     label: 'Twitter',
-    icon: 'MoreIcon',
+    icon: 'TwitterIcon',
     href: 'https://twitter.com/SirenTrove_DEX',
   },
   {
     label: '#girlsmakingcrypto',
-    icon: 'MoreIcon',
-    href: 'http://gmail.com',
+    icon: 'IfoIcon',
+    href: 'https://twitter.com/search?q=%23girlsmakingcrypto&src=typed_query',
   },
 ]
 

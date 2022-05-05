@@ -12,6 +12,10 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 const StyledCakeStats = styled(Card)`
   margin-left: auto;
   margin-right: auto;
+
+  background-image: url('/images/egg/bg1.png');
+  background-repeat: no-repeat;
+  background-position: auto;
 `
 
 const Row = styled.div`

@@ -11,6 +11,9 @@ import CardValue from './CardValue'
 import { useFarms } from '../../../state/hooks'
 
 const StyledTwitterCard = styled(Card)`
+background-image: url('/images/egg/map.png');
+background-repeat: no-repeat;
+background-position: Auto;
   margin-left: auto;
   margin-right: auto;
 `
@@ -35,7 +38,7 @@ const TwitterCard = () => {
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'GooseFinance',
+            screenName: 'SirenTrove_DEX',
           }}
           options={{
             height: '300',

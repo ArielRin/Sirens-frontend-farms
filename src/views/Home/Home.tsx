@@ -11,9 +11,9 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/egg/3.png');
+  background-image: url('/images/egg/bg1.png');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
+        <Heading as="h1" size="xl" mb="24px" color="Black">
           {TranslateString(576, 'Sirens Treasure Trove')}
         </Heading>
         <Text>{TranslateString(578, 'Mermaid magic and powered by Ariel and a bunch of beautiful developers.')}</Text>

@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.background};
 
+    align-items: center;
+    background-image: url('/images/egg/shimmer.png');
+    background-repeat: no-repeat;
+    background-position: auto;
     img {
       height: auto;
       max-width: 100%;
