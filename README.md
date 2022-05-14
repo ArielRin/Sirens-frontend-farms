@@ -1,7 +1,13 @@
-# 🥞 Pancake Frontend
+👋 Hi, I’m @ArielRin
+👀 I’m interested in Blockchain Applications
+🌱 I’m currently learning Typescript and Solidity
+💞️ I’m looking to collaborate on other Blockchain apps
+📫 How to reach me girlsmakingcrypto@gmail.com or https://twitter.com/SirenTrove_DEX
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7bebf1a3-be7b-4165-afd1-446256acd5e3/deploy-status)](https://app.netlify.com/sites/pancake-prod/deploys)
 
-This project contains the main features of the pancake application.
+this is my exchange code to create a deployment of pearls into theblockchain to be used for game rewards and for purchasing upgrades in game for stats visuals and other features
 
-If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
+metaverse compatible using Web3.0 typescript and many other snippets
+
+feel free to contact me for work pertaining to blockchain technologies
+
