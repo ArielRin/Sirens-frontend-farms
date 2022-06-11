@@ -6,6 +6,17 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
+  {
+    label: 'Purchase Your In Game Character',
+    icon: 'NftIcon',
+    href: '/nft',
+  },
+  {
+    label: 'Mermaid GAMING',
+    icon: 'NftIcon',
+    href: 'https://www.retrogames.cc/genesis-games/ecco-jr-usa-australia-march-1995.html',
+    // href: 'https://www.retrogames.cc/gameboyadvance-games/disney-s-prinzessinnen-g-suxxors.html',
+  },
   // {
   //   label: 'Trade',
   //   icon: 'TradeIcon',
@@ -35,11 +46,6 @@ const config: MenuEntry[] = [
     icon: 'VaultsIcon',
     href: '/',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',

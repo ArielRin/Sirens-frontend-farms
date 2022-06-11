@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
+import GameCard from './components/GameCard'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
@@ -59,7 +60,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="Black">
+        <Heading as="h1" size="xxl" mb="24px" color="Black">
           {TranslateString(576, 'Sirens Treasure Trove')}
         </Heading>
         <Text>{TranslateString(578, 'Mermaid magic and powered by Ariel and a bunch of beautiful developers.')}</Text>
