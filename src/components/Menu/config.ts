@@ -17,20 +17,20 @@ const config: MenuEntry[] = [
     href: 'https://www.retrogames.cc/genesis-games/ecco-jr-usa-australia-march-1995.html',
     // href: 'https://www.retrogames.cc/gameboyadvance-games/disney-s-prinzessinnen-g-suxxors.html',
   },
-  // {
-  //   label: 'Trade',
-  //   icon: 'TradeIcon',
-  //   items: [
-  //     {
-  //       label: 'Exchange',
-  //       href: 'https://exchange.goosedefi.com/',
-  //     },
-  //     {
-  //       label: 'Liquidity',
-  //       href: 'https://exchange.goosedefi.com/#/pool',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Trade',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href: 'https://exchange.goosedefi.com/',
+      },
+      {
+        label: 'Liquidity',
+        href: 'https://exchange.goosedefi.com/#/pool',
+      },
+    ],
+  },
   {
     label: 'Pearl Farming',
     icon: 'FarmIcon',
