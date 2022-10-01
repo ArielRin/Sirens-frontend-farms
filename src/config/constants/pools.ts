@@ -2,13 +2,13 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 
 const pools: PoolConfig[] = [
   {
-    sousId: 0,
+    sousId: 1,
     tokenName: 'CAKE',
     stakingTokenName: QuoteToken.CAKE,
-    stakingTokenAddress: '0x5194E62C3A3129F8eb610B720dB93BBAb4aA67eE',
+    stakingTokenAddress: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-      56: '0x53c33637e7981b1218F1005162c5E29f4b99196F',
+      56: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://sirenstreasure.io',

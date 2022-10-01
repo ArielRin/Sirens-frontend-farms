@@ -95,11 +95,11 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {tokenMode
-          ? TranslateString(10002, 'Stake Treasures to earn PEARLS')
-          : TranslateString(320, 'Stake LP tokens to earn Pearls')}
+          ? TranslateString(10002, 'Stake Treasures to earn SIREN')
+          : TranslateString(320, 'Stake LP tokens to earn Siren')}
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Ariel will rebuy Pearls with all Deposit FEES ')}
+        {TranslateString(10000, 'Ariel will rebuy Siren with all Deposit FEES ')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>

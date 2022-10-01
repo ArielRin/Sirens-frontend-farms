@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'tPEARL-BUSD LP',
+    lpSymbol: 'SIREN-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x5565Bc3E96b5f70f9aE4E9230f90441257C8B9Fb',
+      56: '0xc8c69dDF25F1c1d999e04e449d3bF29339380210',
     },
-    tokenSymbol: 'tPEARL',
+    tokenSymbol: 'SIREN',
     tokenAddresses: {
       97: '',
-      56: '0x5194E62C3A3129F8eb610B720dB93BBAb4aA67eE',
+      56: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,17 +21,33 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 5,
-    lpSymbol: 'tPEARL-FUSE LP',
+    lpSymbol: 'SIREN-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xe544a49A870ad2162B4E06a8261a6b28fB0E55F2',
+      56: '0xdD51Ef44f684Fda6fAA36a8E8FB8E720A4cc2cA4',
     },
-    tokenSymbol: 'tPEARL',
+    tokenSymbol: 'SIREN',
     tokenAddresses: {
       97: '',
-      56: '0x5194E62C3A3129F8eb610B720dB93BBAb4aA67eE',
+      56: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     },
     quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 3,
+    risk: 5,
+    lpSymbol: 'BUSD-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xdD51Ef44f684Fda6fAA36a8E8FB8E720A4cc2cA4',
+    },
+    tokenSymbol: 'BUSD',
+    tokenAddresses: {
+      97: '',
+      56: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.wbnb,
   },
   // {
