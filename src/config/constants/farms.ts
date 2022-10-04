@@ -4,7 +4,7 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    risk: 5,
+    risk: 0,
     lpSymbol: 'SIREN-BUSD LP',
     lpAddresses: {
       97: '',
@@ -20,7 +20,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    risk: 5,
+    risk: 0,
     lpSymbol: 'SIREN-BNB LP',
     lpAddresses: {
       97: '',
@@ -36,7 +36,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    risk: 5,
+    risk: 0,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
