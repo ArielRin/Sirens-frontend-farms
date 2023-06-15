@@ -6,45 +6,34 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
+  // {
+  //   label: 'Trade',
+  //   icon: 'TradeIcon',
+  //   items: [
+  //     {
+  //       label: 'Exchange',
+  //       href: 'https://exchange.goosedefi.com/',
+  //     },
+  //     {
+  //       label: 'Liquidity',
+  //       href: 'https://exchange.goosedefi.com/#/pool',
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: 'Pearl Farming',
+  //   icon: 'FarmIcon',
+  //   href: '/farms',
+  // },
   {
-    label: 'Purchase Your In Game Character',
-    icon: 'NftIcon',
-    href: '/nft',
-  },
-  {
-    label: 'Mermaid GAMING',
-    icon: 'NftIcon',
-    href: 'https://www.retrogames.cc/genesis-games/ecco-jr-usa-australia-march-1995.html',
-    // href: 'https://www.retrogames.cc/gameboyadvance-games/disney-s-prinzessinnen-g-suxxors.html',
-  },
-  {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
-      },
-    ],
-  },
-  {
-    label: 'Pearl Farming',
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: 'The Grotto',
+    label: 'Dream Pools',
     icon: 'PoolIcon',
     href: '/nests',
   },
   {
     label: 'Sunken Treasure (Locks)',
     icon: 'VaultsIcon',
-    href: '/',
+    href: '/vaults',
   },
   // {
   //   label: 'Lottery',
@@ -65,16 +54,8 @@ const config: MenuEntry[] = [
       //   href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
       // },
       {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        label: 'Dexscreener',
+        href: 'https://dexscreener.com/redlightchain/0x7cfe4ae3d61177d9ceb2104ab7362ce7312c4b4e',
       },
     ],
   },
@@ -103,14 +84,30 @@ const config: MenuEntry[] = [
   //     'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
   // },
   {
-    label: 'Auditing after Launch',
+    label: 'Purchase Your In Game Character',
+    icon: 'NftIcon',
+    href: 'https://nft.sirenstreasure.tk/',
+  },
+  {
+    label: 'Mermaid GAMING',
+    icon: 'NftIcon',
+    href: 'https://nft.sirenstreasure.tk/game2/seahorse.html',
+    // href: 'https://www.retrogames.cc/gameboyadvance-games/disney-s-prinzessinnen-g-suxxors.html',
+  },
+  {
+    label: 'Whitepaper',
     icon: 'AuditIcon',
-    href: '/',
+    href: 'https://docs.sirenstreasure.tk',
   },
   {
     label: 'Github',
     icon: 'RedditIcon',
     href: 'https://github.com/ArielRin?tab=repositories',
+  },
+  {
+    label: 'Telegram',
+    icon: 'AuditIcon',
+    href: 'https://t.me/+iS9i0PWhqNU1ZTE1',
   },
   {
     label: 'Twitter',

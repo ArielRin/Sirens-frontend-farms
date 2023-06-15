@@ -24,6 +24,7 @@ export enum QuoteToken {
   'CAKE' = 'CAKE',
   'SYRUP' = 'SYRUP',
   'BUSD' = 'BUSD',
+  'EEYORE' = 'EEYORE',
   'TWT' = 'TWT',
   'UST' = 'UST',
 }
@@ -36,7 +37,7 @@ export enum PoolCategory {
 
 export interface Address {
   97?: string
-  56: string
+  2611: string
 }
 
 export interface FarmConfig {
