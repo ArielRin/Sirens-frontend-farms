@@ -8,7 +8,7 @@ const pools: PoolConfig[] = [
     stakingTokenAddress: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-      2611: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
+      2611: ' 0x93E7ae1eF759Ee2dBEf0F87424b08d7Af7E4BcA5',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://sirenstreasure.tk',
